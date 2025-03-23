@@ -58,3 +58,86 @@
 </ul>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TP Project Phase II</title>
+</head>
+<body>
+<h1>TP Project Phase II</h1>
+<h2>Description</h2>
+<p>This project is part of the "Transportation Planning" course at Sharif University of Technology, under the supervision of Dr. Hassan Naeibi. The objective of Phase II is to expand upon the analyses conducted in Phase I, focusing on optimization, demand forecasting, and advanced modeling techniques to address transportation challenges using real-world data from New York City's Green Taxi services.</p>
+
+<h2>Project Objectives</h2>
+<ol>
+<li><strong>OD Matrix Analysis:</strong>
+<ul>
+<li>Extract the OD matrix for all boroughs in the city.</li>
+<li>Identify borough pairs with the highest percentage of trips between them.</li>
+<li>Determine the borough with the highest percentage of internal trips (same origin and destination).</li>
+<li>Assume you are a new supplier entering this market. Based on insights gained from this analysis, what decisions would you take?</li>
+</ul>
+</li>
+
+<li><strong>Revenue Optimization:</strong>
+<ul>
+<li>A Chinese supplier plans to enter NYC’s Green Taxi market next year. They aim to maximize revenue while operating within constraints, such as a fixed daily budget of $40 per vehicle and a maximum service distance of 1,000 kilometers per day.</li>
+<li>Define the optimization problem for maximizing revenue while considering operational constraints such as charging infrastructure and limited activity days.</li>
+<li>Provide recommendations for vehicle operations based on your analysis.</li>
+</ul>
+</li>
+
+<li><strong>Time-Based Route Grouping:</strong>
+<ul>
+<li>Group daily routes into time-based groups (low traffic, normal traffic, heavy traffic).</li>
+<li>Extract a 25×25 OD submatrix representing daily average demand between all zones.</li>
+<li>Identify the OD pairs with the highest weights (most demand). Construct this submatrix.</li>
+<li>Balance supply and demand using one of the adjustment methods, incorporating dummy zones if necessary.</li>
+</ul>
+</li>
+
+<li><strong>Demand Prediction:</strong>
+<ul>
+<li>Use a gravity model with resistance functions (e.g., exponential and log-normal) to predict future demand for the next year. Assume β = 0.1 and β = 0.3.</li>
+<li>Evaluate the accuracy of the models using RMSE and R-squared metrics.</li>
+<li>Choose the best model and justify your selection with reasoning based on the evaluation metrics.</li>
+</ul>
+</li>
+
+<li><strong>Cost Matrices:</strong>
+<ul>
+<li>Estimate the average cost for each route (round trip) within each time group.</li>
+<li>Create a cost matrix based on the average round-trip price for each time group.</li>
+<li>Estimate the average distance between any two zones and construct a distance matrix.</li>
+</ul>
+</li>
+
+<li><strong>Tip Prediction:</strong>
+<ul>
+<li>Incorporate tips into the objective function for revenue optimization. Predict the likelihood of tip payments using probabilistic models.</li>
+<li>Use the Phase I prediction model to forecast tip payments and assess its accuracy.</li>
+<li>Include dimensions such as time groups, origin, destination, and trip costs in the decision variables.</li>
+<li>Analyze the likelihood of tip payments with a fixed probability (e.g., $5 tips) and incorporate this into the optimization process.</li>
+</ul>
+</li>
+</ol>
+
+<h2>Deliverables</h2>
+<p>The deliverables for Phase II include:</p>
+<ul>
+<li>A Python code file.</li>
+<li>A detailed project report.</li>
+<li>Files named and submitted as: <code>TP Project Phase II student_number_1, student_number_2, student_number_3</code>.</li>
+</ul>
+
+<h2>Additional Information</h2>
+<p>Assumptions:</p>
+<ul>
+<li>All vehicles have a constant speed.</li>
+<li>Charging infrastructure and operational limits are considered.</li>
+</ul>
+<p>The project builds upon the insights from Phase I and aims to provide actionable recommendations and advanced solutions for optimizing transportation planning and operations.</p>
+</body>
+</html>
