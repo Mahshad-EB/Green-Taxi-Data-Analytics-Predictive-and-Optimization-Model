@@ -67,9 +67,7 @@
 </head>
 <body>
 <h1>TP Project Phase II</h1>
-<h2>Description</h2>
-<p>This project is part of the "Transportation Planning" course at Sharif University of Technology, under the supervision of Dr. Hassan Naeibi. The objective of Phase II is to expand upon the analyses conducted in Phase I, focusing on optimization, demand forecasting, and advanced modeling techniques to address transportation challenges using real-world data from New York City's Green Taxi services.</p>
-
+  
 <h2>Project Objectives</h2>
 <ol>
 <li><strong>OD Matrix Analysis:</strong>
@@ -123,14 +121,6 @@
 </ul>
 </li>
 </ol>
-
-<h2>Deliverables</h2>
-<p>The deliverables for Phase II include:</p>
-<ul>
-<li>A Python code file.</li>
-<li>A detailed project report.</li>
-<li>Files named and submitted as: <code>TP Project Phase II student_number_1, student_number_2, student_number_3</code>.</li>
-</ul>
 
 <h2>Additional Information</h2>
 <p>Assumptions:</p>
