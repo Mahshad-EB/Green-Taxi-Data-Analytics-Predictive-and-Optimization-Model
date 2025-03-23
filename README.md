@@ -121,6 +121,6 @@
 <li>All vehicles have a constant speed.</li>
 <li>Charging infrastructure and operational limits are considered.</li>
 </ul>
-<p>Deliverables for Phase II include Python code files and a report file. Files should be named as follows: <code>TP Project Phase II student_number_1, student_number_2, student_number_3</code>.</p>
+<p>The project builds upon the insights from Phase I and aims to provide actionable recommendations and advanced solutions for optimizing transportation planning and operations.</p>
 </body>
 </html>
