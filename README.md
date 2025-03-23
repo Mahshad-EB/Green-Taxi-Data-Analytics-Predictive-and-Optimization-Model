@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Green Taxi Data Analytics: TP Project</title>
+
 </head>
 <body>
 <h1>Green Taxi Data Analytics: Predictive and Optimization Model</h1>
